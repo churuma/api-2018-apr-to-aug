@@ -1,0 +1,24 @@
+<?php
+class Fruit{
+  private $name;
+  public function -construct($name){
+
+  }
+  public function getName(){
+    return $this->name;
+  }
+  /*
+  public function trial(){
+    return self::name;
+*/
+  }
+  public function setName($name){
+    $this->name = $name;
+  }
+
+}
+$banana = new Fruit('banana');
+echo 'i have a'.$banana->get Name();
+
+
+?>
